@@ -55,7 +55,7 @@ class TweetyPy( object ):
 	username	= None
 	password	= None
 	auth_string = ""
-	user_agent	= "TweetyPy/1.0 +http://nefariousdesigns.co.uk/"
+	user_agent	= "TweetyPy/1.0 +http://github.com/nefarioustim/TweetyPy/"
 	etag		= {}
 	
 	# Special methods
