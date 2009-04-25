@@ -163,7 +163,7 @@ class TweetyPy( object ):
 		url 				= "http://twitter.com/account/verify_credentials.xml"
 		self.auth_string	= base64.encodestring( "%s:%s" % ( self.username, self.password ) )
 
-		request = self.__build_request( url, auth=True )
+		request = self.__get_request( url, auth=True )
 
 		try:
 			results = self.__get_valid_response( request, return_bool=True )
